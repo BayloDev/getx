@@ -17,11 +17,7 @@ class PageTwo extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                'If we go to the screen one first and then the screen two this dont give us error because the controller is initialized in the first page and the value rest the same until we dont use permanent in page two\n Get.lazyPut() : just create the controller, and when it looks we need this controller it initialised it',
-                style: TextStyle(fontSize: 16),
-              ),
-              const SizedBox(height: 20),
+            
               GetBuilder<MyGetBuilderContoller>(
                 builder: (controller) {
                   return Text(
