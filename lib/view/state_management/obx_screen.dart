@@ -20,12 +20,7 @@ class ObxScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                'If any value change state, just the obx used this value will rebuild',
-                style: TextStyle(fontSize: 20),
-                textAlign: TextAlign.justify,
-              ),
-              const SizedBox(height: 40),
+       
               Obx(
                 () {
                   print('rebuild number1');
