@@ -19,13 +19,7 @@ class StateManagementPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                'GetBuilder: is fast and has low memory footprint, but, it\'s not reactive, This means we will missing out on the power of streams we need to update the value,\nWell, for this very reason, Getx (class) was created.\nObx like Getx but simple to use, we need to inject the controller(like initialization) \nObx can use multiple controller \nIf there are many Widgets listen to the same controller we init this contoller just the first time we called it(the first GetX or obx or GetBuilder)\n When we exit the page use any state management the controller will deleted and reinitialized',
-                style: TextStyle(
-                  fontSize: 16,
-                ),
-              ),
-              const SizedBox(height: 30),
+            
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
