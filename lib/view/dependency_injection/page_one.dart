@@ -17,11 +17,7 @@ class PageOne extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                'When we exit the page the controller will removed and reinitialized, so we should use permanent=true in the Get.put() this function create and initialized the controller at once time',
-                style: TextStyle(fontSize: 16),
-              ),
-              const SizedBox(height: 20),
+           
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
