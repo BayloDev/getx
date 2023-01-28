@@ -4,7 +4,7 @@ import 'locale_controller.dart';
 
 class ChangeLang extends StatelessWidget {
   ChangeLang({super.key});
-  // final MyLocaleController controllerLang = Get.find();
+ 
   final MyLocaleController controllerLang = Get.put(MyLocaleController());
   @override
   Widget build(BuildContext context) {
