@@ -84,8 +84,7 @@ class FeaturesPage2 extends StatelessWidget {
                             'Dialog content Dialog contentDialog contentDialog content '),
                         textCancel: 'cancel',
                         textConfirm: 'confirm',
-                        // confirm: const Text('confirm'),
-                        //   cancel: const Text('cancel'),
+       
 
                         onConfirm: () => Get.back(),
                         onCancel: () => Get.back(),
