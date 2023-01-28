@@ -20,12 +20,7 @@ class GetBuilderScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                'If any value change state all getBuilder listen to the same controller will rebuild',
-                style: TextStyle(fontSize: 20),
-                textAlign: TextAlign.justify,
-              ),
-              const SizedBox(height: 40),
+            
               GetBuilder<MyGetBuilderContoller>(
                 builder: (controller) {
                   print('rebuild number1');
