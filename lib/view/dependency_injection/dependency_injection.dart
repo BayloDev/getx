@@ -19,10 +19,7 @@ class DependencyInjectionPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
-                '   Dependency Injection: is the technique of injecting instances of one class into another, we can place different variables in different classes and have them depend on one another, ultimately organizing the code at a greater level\nA basic approach to inject dependences in flutter is through constructors or getx\n  White the above approach is neat, we are still declaring our dependencies in the view class, for organizing the code even further, we can (and should) seperate them from the view using "Bindings"',
-                style: TextStyle(fontSize: 20),
-              ),
+ 
               ElevatedButton(
                 onPressed: () => Get.to(() => PageOne()),
                 child: const Text('Go to page one'),
